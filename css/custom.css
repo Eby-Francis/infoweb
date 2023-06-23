@@ -1,0 +1,564 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+
+a{
+	transition: 1s;
+}
+.banner{
+	background-image: url('../img/banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	min-height: 662px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.banner h1{
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin-top: 4em;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+
+}
+.banner button {
+  background-color: #06a8a2;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 1em;
+}
+
+
+
+.iconbar{
+float: left;
+width: 100%;
+min-height: 50px;
+background-color: transparent;
+padding: 20px 50px;
+display: inline-block;
+
+
+}
+
+.iconbar h4{
+font-size: 16px;
+color: #fff;
+padding: 10px 20px;
+
+
+
+}
+
+.iconbar h3{
+float: right;
+font-size: 18px;
+color: #06a8a2;
+padding: 10px 20px;
+font-weight: bold;
+font-family: 'Big Shoulders Display', cursive;
+letter-spacing: 2px;
+}
+
+.underline{
+	width: 100%;
+	height: 1px;
+	color: #fff;
+	background-color: #fff;
+	float: left;
+}
+
+
+.menubar{
+float: left;
+width: 100%;
+min-height: 50px;
+background-color: transparent;
+padding: 5px 50px;
+display: inline-block;
+
+
+}
+.menubar h3{
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+}
+.menubar ul{
+	float: right;
+	height: auto;
+	list-style: none;
+
+}
+
+.menubar ul li{
+	float: right;
+	font-size: 20px;
+	display: inline;
+	padding: 5px 10px;
+	height: 50px;
+	color: #fff;
+
+}
+
+.menubar li a {
+
+     color: #fff;
+     display: block;
+     text-decoration: none;
+}
+
+.menubar li a:hover {
+    
+     color: #06a8a2;
+    }
+
+.banner-bottom{
+width: 100%;
+height: auto;
+float: left;
+margin-top: 4em;
+padding: 8px;
+text-align: left;
+}
+
+.banner-bottom img{
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+    height: auto;
+}
+.banner-bottom h2{
+	text-align: left;
+	font-size: 36px;
+	color: #282828;
+	float: left;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 1em;
+}
+
+.banner-bottom p{
+font-size: 18px;
+text-align: left;
+color: #282828;
+letter-spacing: 1px;
+}
+
+.banner-bottom button {
+  background-color: #06a8a2;
+  border: none;
+  color: white;
+    padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  float: right;
+}
+
+
+.features{
+width: 100%;
+height: auto;
+float: left;
+margin-top: 5em;
+padding: 8px;
+text-align: center;
+margin-bottom: 3em;
+}
+
+
+.features h2{
+	text-align: center;
+	font-size: 36px;
+	color: #282828;
+	float: left;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 2em;
+}
+
+.features p{
+font-size: 16px;
+text-align: left;
+color: #282828;
+
+margin-bottom: 2em;
+}
+
+.features h3{
+width: 100%;
+font-size: 30px;
+text-align: left;
+color: #06a8a2;
+padding-bottom: 30px;
+transform: rotate(0deg);
+transition: 2s;
+
+
+}
+.features h3:hover{
+transform: rotate(180deg);
+transition: 2s;
+}
+.features h4{
+font-size: 18px;
+text-align: left;
+color: #282828;
+letter-spacing: 1px;
+font-family: 'Oswald', sans-serif;
+}
+
+
+.company{
+	background-image: url('../img/banner2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	min-height: 350px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 5em;
+	background-attachment: fixed;
+  background-position: center;
+}
+
+.company-left h4{
+font-size: 28px;
+text-align: left;
+color:  #06a8a2;
+letter-spacing: 1px;
+font-family: 'Oswald', sans-serif;
+margin-top: 1em;
+}
+
+
+
+.company-left p{
+margin-top: 1em;
+font-size: 18px;
+text-align: left;
+color: #fff;
+
+}
+
+.company-right{
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0 2em;
+}
+
+.company-right h2{
+margin-top: 10px;
+font-size: 30px;
+text-align: left;
+font-weight: bold;
+color: #fff;
+letter-spacing: 1px;
+font-family: 'Oswald', sans-serif;
+
+}
+
+.company-right p{
+margin-top: 10px;
+font-size: 15px;
+text-align: left;
+color: #fff;
+
+}
+
+.cmpny-round{
+	background-color: #fff;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	float: left;
+	padding: 15px;
+	margin-top: 10px;
+
+
+}
+
+
+.cmpny-round h5{
+text-align: center;
+font-size: 18px;
+color: #000;
+
+
+}
+.cmpny-round h5 :hover{
+color: #06a8a2;
+transition: 1s;
+}
+
+.gallery-head{
+width: 100%;
+height: auto;
+float: left;
+
+}
+
+.gallery-head h2{
+
+    text-align: center;
+	font-size: 36px;
+	color: #282828;
+	float: left;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 2em;
+	margin-top: 3em;
+
+}
+.gallery{
+ 
+	float: left;
+	width: 100%;
+	height: auto;
+
+}
+.gallery-box{
+ display: block;
+ width: 100%;
+ height: auto;
+ float: left;
+ padding: 20px 0px;
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+
+.gallery :hover .overlay {
+  opacity: 0.3;
+}
+
+.bottom-full{
+	width: 100%;
+	background-color: #000;
+	height: auto;
+	float: left;
+	margin-top: 2em;
+	padding: 20px 15px;
+
+
+}
+.bottom-full .abt {
+	text-transform: uppercase;
+	text-align: center;
+}
+.bottom-full .abt h3{
+	color: #06a8a2;
+	font-size: 20px;
+	line-height: 6;
+	text-align: center;
+
+}
+.abt ul{
+
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+
+.abt ul li{
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 5px 0;
+	display: block;
+}
+.abt ul li a{
+	color: #fff;
+	text-decoration: none;
+
+}
+
+
+.abt ul li a:hover {
+    
+     color: #06a8a2;
+
+    }
+
+.abt a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.abt p{
+    color: #fff;
+}
+
+@media only screen and (max-width: 736px) {
+.abt{
+	border-bottom: 1px #fff solid;
+	padding-bottom: 15px;
+}
+.features h3:hover{
+	display: none;
+}
+}
+
+.btm-footer{
+	width: 100%;
+	height: auto;
+	padding: 10px 20px;
+	background-color: #000;
+	color: #fff;
+	float: left;
+	text-align: center;
+	border-top: 1px #fff solid;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: right;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+/*ul.topnav li a:hover {background-color: #111;}*/
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  ul.topnav li{
+  	float: left;
+  }
+  .menubar{
+  	padding: 5px 20px;
+  }
+
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+        position: absolute;
+    right: 0;
+    top: -4px;
+
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  .iconbar h4 {
+  	margin: 0 auto
+  }
+  .iconbar h3{
+  	float: none;
+  }
+  .banner h1{
+  	    padding: 10px 20px;
+  }
+  .banner-bottom h2{
+  	    font-size: 26px;
+  	    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width:320px) {
+.iconbar h4{
+	padding: 10px 15px;
+}
+
+.menubar h3{
+	font-size: 22px;
+}
+ul.topnav li a{
+	padding: 0;
+}
+.banner h1{
+	margin-top: 1.5em;
+}
+}
+@media screen and (max-width:1024px) {
+.iconbar h4{
+padding: 10px 16px;
+	}
+}
+@media screen and (max-width:736px) {
+.banner-bottom img{
+    padding-bottom: 20px;
+    width: 100%;
+}
+.banner-bottom h2{
+	font-size: 26px;
+}
+.overlay{
+	display: block;
+}
+.d-n{
+	display: none;
+}
+}
