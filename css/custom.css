@@ -269,13 +269,13 @@ color: #fff;
 	float: left;
 	width: 100%;
 	height: auto;
-	padding: 0 2em;
+	padding: 0 3em;
 }
 
 .company-right h2{
 margin-top: 10px;
 font-size: 30px;
-text-align: left;
+text-align: center;
 font-weight: bold;
 color: #fff;
 letter-spacing: 1px;
@@ -286,7 +286,7 @@ font-family: 'Oswald', sans-serif;
 .company-right p{
 margin-top: 10px;
 font-size: 15px;
-text-align: left;
+text-align: center;
 color: #fff;
 
 }
