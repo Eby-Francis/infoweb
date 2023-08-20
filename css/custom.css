@@ -266,10 +266,9 @@ color: #fff;
 }
 
 .company-right{
-	float: left;
-	width: 100%;
-	height: auto;
-	padding: 0 3em;
+display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 
 .company-right h2{
