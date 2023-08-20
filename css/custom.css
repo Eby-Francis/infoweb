@@ -6,9 +6,17 @@ body{
 	background-color: #fff;
 }
 
-a{
-	transition: 1s;
+a {
+    transition: 1s;
+    text-decoration: none;
+    color: #fff;
 }
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
 .banner{
 	background-image: url('../img/banner.jpg');
 	background-repeat: no-repeat;
