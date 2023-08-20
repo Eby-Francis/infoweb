@@ -83,6 +83,14 @@ font-family: 'Big Shoulders Display', cursive;
 letter-spacing: 2px;
 }
 
+.iconbar h3 a{
+    color: #06a8a2;
+}
+.iconbar h3 a:hover{
+    color: #06a8a2;
+}
+
+
 .underline{
 	width: 100%;
 	height: 1px;
